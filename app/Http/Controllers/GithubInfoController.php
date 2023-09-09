@@ -18,7 +18,7 @@ class GithubInfoController extends Controller
 
         // Get Current Day of the week
         $currentDay = Carbon::now()->format('l');
-        $currentUtcTime = Carbon::now('UTC');
+        $currentUtcTime = Carbon::now('UTC')->format('Y-m-dT H:i:sZ');
         
         // Define GitHub URLs
         $githubFileUrl = 'https://github.com/DGreegman/stage-one/blob/main/app/Http/Controllers/GithubInfoController.php';
