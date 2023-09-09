@@ -22,7 +22,7 @@ class GithubInfoController extends Controller
         
         // Define GitHub URLs
         $githubFileUrl = 'https://github.com/username/repo/blob/main/file_name.ext';
-        $githubRepoUrl = 'https://github.com/username/repo';
+        $githubRepoUrl = 'https://github.com/DGreegman/stage-one';
 
         // Build the response JSON
         $response = [
